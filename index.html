@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="fullPage">
+        <div class="section s1" id="s1">
+            <div class="logo-display-topleft ">
+                <img src="./assets/images/companylogo.png" class="logo" />
+            </div>
+            <div class="leftimage">
+                <img src="./assets/images/leftimage.png" class="left-image" />
+            </div>
+            <div class="rightimage">
+                <img src="./assets/images/rightImage.png" class="right-image" />
+            </div>
+            <div class="display-middle">
+                <h1>It's important<br />the world knows<br /> what you can do
+                </h1>
+                <p><button type="button" class="submit-button">Join Waitlist</button></p>
+            </div>
+            <p class="swipe-label">Click the arrow to learn<br/> more or swipeup</p>
+            <a href="#s2" class="scroll-down" address="true"></a>
+        </div>
+        <div class="section s2" id="s2">
+            <div class="logo-display-topleft ">
+                <img src="./assets/images/companylogo.png" class="logo" />
+            </div>
+            <div class="video-display-bottomleft">
+                <video id="video" class="video" autoplay muted loop>
+                <source src="./assets/videos/hd.mp4" type="video/mp4">
+            </video>
+            </div>
+            <div class="text-class">
+                <h1>What do you do?</h1>
+                <p class="sub-text">It’s a question we’ve all been asked. By our friends, our parents, our aunts, uncles and grandparents.</p>
+            </div>
+            <a href="#s3" class="scroll-down" address="true"></a>
+        </div>
+        <div class="section s3" id="s3">
+            <div class="logo-display-topleft ">
+                <img src="./assets/images/companylogo.png" class="logo" />
+            </div>
+            <div class="video-display-bottomright">
+                <video id="video" class="video" autoplay muted loop>
+                <source src="./assets/videos/sd.mp4" type="video/mp4">
+            </video>
+            </div>
+            <div class="text-class">
+                <h1>I mean where do we <br/>begin?</h1>
+                <p class="sub-text">We all do such a wide variety of <br/>wonderful things, personal<br/> and professional, within our 9-<br/>5pm and outside of it.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new fullpage('#fullPage', {
+            autoScrolling: true
+        });
+    </script>
+</body>
+
+</html>
